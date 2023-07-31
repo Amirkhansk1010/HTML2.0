@@ -4,10 +4,53 @@
         <title> Universal Boss </title>
     </head>
     <body>
-        <h1 style="font-size: 50px;">Awesome</h1>
-        <p>Lorem, ipsum dolor sit amet <i>oooooo</i>consectetur adipisicing elit.
-             Corrupti earum voluptatum repellendus pariatur sed magnam molestiae quos dicta deleniti.
-             Facere alias vitae iusto amet, ullam animi ipsam dolorum mollitia rerum.
-        </p>
+        <font size="20">
+        <marquee behavior="alternate" bgcolor="violet" loop="" >Introduction to Form in Html</marquee>
+        </font>
+
+        <form>
+            <h1>TEXTBOX</h1>
+            <h2>Login</h2>
+            User name:<input type="text" name="Username" value="user_name" maxlength="20" size="20"> <br><br>
+            Password:<input type="password" name="password" size="20">
+            <br>
+            <h1>RADIO BUTTONS</h1>
+            <h2>Gender</h2>
+            <input type="radio" name="gender">MALE <br>
+            <input type="radio" name="gender" checked>FEMALE
+            <br>
+            <h1>CHECKBOX</h1>
+            <h2>Hobbies</h2>
+            <input type="checkbox">Playing <br>
+            <input type="checkbox">Reading <br>
+            <input type="checkbox">Singing <br>
+            <input type="checkbox">Painting <br>
+            <br>
+            <h1>TEXTAREA</h1>
+            <h2>Address</h2>
+            <textarea rows="5" cols="20"></textarea>
+
+            <br>
+            <h1>SELECT TAG</h1>
+            <h2>Interested Course</h2>
+            <select size="1" name="selected option">
+                <option value="default-is-selected" selected="selected">C</option>
+                <option value="value2">C++</option>
+                <option value="value3">JAVA</option>
+                <option value="value4">PYTHON</option>
+                <option value="value5" disabled="disabled">JAVASCRIPT</option>
+            </select>
+            <br>
+            <br>
+            <h1>FILE UPLOAD</h1>
+            <input type="file" name="file" accept="image">
+            <br> 
+            <br>
+            <h1>BUTTONS</h1>
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" name="reset" value="reset">
+            <input type="button" name="button" value="click me!">
+            <input type="image" name="imgbutton" src="intelligence.jpg" width="75px" height="50px">
+        </form>
     </body>
 </html>
