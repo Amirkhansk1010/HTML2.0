@@ -1,0 +1,13 @@
+p{
+    border: 5px solid;
+    border-color: red blue yellow green;
+    margin: 300px;
+    padding: 350px;
+    text-align: center;
+    color: orange;
+    border-radius: 25px;
+    background-color: indigo;
+    border-style:groove;
+    font-size: 15px;
+    font-family:cursive;
+}
